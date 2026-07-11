@@ -1,0 +1,35 @@
+Krima@KRIMA MINGW64 ~/Documents
+$ cd COURSERA-GIT
+
+Krima@KRIMA MINGW64 ~/Documents/COURSERA-GIT (main)
+$ git branch
+* main
+
+Krima@KRIMA MINGW64 ~/Documents/COURSERA-GIT (main)
+$ git checkout -b bug-fix-typo
+Switched to a new branch 'bug-fix-typo'
+
+Krima@KRIMA MINGW64 ~/Documents/COURSERA-GIT (bug-fix-typo)
+$ git branch
+* bug-fix-typo
+  main
+
+Krima@KRIMA MINGW64 ~/Documents/COURSERA-GIT (bug-fix-typo)
+$ git add README.md
+
+Krima@KRIMA MINGW64 ~/Documents/COURSERA-GIT (bug-fix-typo)
+$ git commit -m "Fix typo in README"
+On branch bug-fix-typo
+nothing to commit, working tree clean
+
+Krima@KRIMA MINGW64 ~/Documents/COURSERA-GIT (bug-fix-typo)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+Krima@KRIMA MINGW64 ~/Documents/COURSERA-GIT (main)
+$ git merge bug-fix-typo
+Already up to date.
+
+Krima@KRIMA MINGW64 ~/Documents/COURSERA-GIT (main)
+$
